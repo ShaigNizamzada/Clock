@@ -1,0 +1,32 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+  background-color: #131417;
+}
+.container .clock-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  background-color: #131417;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  color: #f8f9fa;
+  font-size: 134px;
+  font-weight: 500;
+}
+.container .clock-section .seconds-section {
+  margin-bottom: 14px;
+  font-size: 72px;
+}
